@@ -1,0 +1,44 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+  z-index: 9999;
+  background: none;
+}
+
+.scroll-to-top:hover {
+  color: var(--primary-color);
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 60px;
+  z-index: 9999;
+  background: none;
+}
+
+.whatsapp i {
+  color: #25d366;
+  transition: 0.5s;
+}
+
+.whatsapp i:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .scroll-to-top {
+    font-size: 30px;
+  }
+  .whatsapp {
+    font-size: 50px;
+  }
+}

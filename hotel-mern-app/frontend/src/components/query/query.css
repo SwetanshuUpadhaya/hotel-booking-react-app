@@ -1,0 +1,64 @@
+.query-section {
+  margin: 100px 50px;
+}
+
+.query-section h2 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.query-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0fffc;
+  flex-wrap: wrap;
+}
+
+/* Style for image */
+.query-image {
+  flex: 1;
+}
+
+/* Style for form */
+.query-form {
+  background-color: #f0fffc;
+  flex: 1;
+  padding: 20px;
+}
+
+.query-form label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.query-form input[type="text"],
+.query-form input[type="email"],
+.query-form input[type="tel"],
+.query-form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .query-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .query-section h2 {
+    font-size: 40px;
+  }
+  .query-section {
+    margin: 100px 20px;
+  }
+}
