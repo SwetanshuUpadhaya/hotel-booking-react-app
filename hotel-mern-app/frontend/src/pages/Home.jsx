@@ -49,11 +49,10 @@ const Home = () => {
           destinations, fostering a holistic experience of youthfulness and
           vitality.
         </p>
-        <button className="btn">
-          <Link to="/About" onClick={handleLinkClick}>
-            About Us
-          </Link>
-        </button>
+
+        <Link to="/About" onClick={handleLinkClick}>
+          <button className="btn">About Us</button>
+        </Link>
       </div>
       <div className="contact-section">
         <img
@@ -71,11 +70,10 @@ const Home = () => {
             <h3>BOOK YOUR STAY NOW</h3>
             <p>Customer Care: +91 88941-63563</p>
             <p>Sales Manager: +91 88941-63563</p>
-            <button className="btn">
-              <Link to="/Contact" onClick={handleLinkClick}>
-                Contact Us
-              </Link>
-            </button>
+
+            <Link to="/Contact" onClick={handleLinkClick}>
+              <button className="btn">Contact Us</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -86,11 +84,9 @@ const Home = () => {
         </div>
         <Accommodation />
         <div className="rooms-btn">
-          <button className="btn">
-            <Link to="/rooms" onClick={handleLinkClick}>
-              View Accommodations
-            </Link>
-          </button>
+          <Link to="/Rooms" onClick={handleLinkClick}>
+            <button className="btn">View Accommodations</button>
+          </Link>
         </div>
       </div>
       <div className="facility-section">
