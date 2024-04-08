@@ -33,7 +33,10 @@ const BookNowForm = () => {
     if (confirmed) {
       setLoading(true);
       try {
-        await axios.post("/api/send-booking-email", formData);
+        await axios.post(
+          "https://therudrakshastays.vercel.app/api/send-booking-email",
+          formData
+        );
         setShowConfirmation(true);
         setLoading(false);
         setFormData({
