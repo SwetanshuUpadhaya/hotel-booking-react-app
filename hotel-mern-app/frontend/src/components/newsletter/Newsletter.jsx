@@ -15,7 +15,9 @@ const Newsletter = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("/api/subscribe", { email });
+      await axios.post("https://therudrakshastays.vercel.app/api/subscribe", {
+        email,
+      });
       setShowConfirmation(true);
       setLoading(false);
       setEmail(""); // Clear the email input after successful subscription

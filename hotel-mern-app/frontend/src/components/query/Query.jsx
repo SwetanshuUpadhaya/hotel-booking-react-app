@@ -17,7 +17,10 @@ const Query = () => {
     event.preventDefault();
     setLoading(true);
     try {
-      await axios.post("/api/send-query-email", formData);
+      await axios.post(
+        "https://therudrakshastays.vercel.app/api/send-query-email",
+        formData
+      );
       setShowConfirmation(true);
       setLoading(false);
       setFormData({
