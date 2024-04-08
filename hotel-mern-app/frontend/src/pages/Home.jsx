@@ -14,7 +14,6 @@ import {
 import Newsletter from "../components/newsletter/Newsletter";
 import Accommodation from "../components/accommodation/Accommodation";
 import Query from "../components/query/Query";
-import MasonryImagesGallery from "../components/gallery/MasonryImagesGallery";
 import FacilitySlider from "../components/slider-2/FacilitySlider";
 
 const Home = () => {
@@ -25,6 +24,10 @@ const Home = () => {
     "https://images.unsplash.com/photo-1503265192943-9d7eea6fc77a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1609410065485-332392feb93b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   ];
+
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <div className="home-container">
@@ -47,7 +50,9 @@ const Home = () => {
           vitality.
         </p>
         <button className="btn">
-          <Link to="/About">About Us</Link>
+          <Link to="/About" onClick={handleLinkClick}>
+            About Us
+          </Link>
         </button>
       </div>
       <div className="contact-section">
@@ -67,7 +72,9 @@ const Home = () => {
             <p>Customer Care: +91 88941-63563</p>
             <p>Sales Manager: +91 88941-63563</p>
             <button className="btn">
-              <Link to="/Contact">Contact Us</Link>
+              <Link to="/Contact" onClick={handleLinkClick}>
+                Contact Us
+              </Link>
             </button>
           </div>
         </div>
@@ -80,7 +87,9 @@ const Home = () => {
         <Accommodation />
         <div className="rooms-btn">
           <button className="btn">
-            <Link to="/rooms">View Accommodations</Link>
+            <Link to="/rooms" onClick={handleLinkClick}>
+              View Accommodations
+            </Link>
           </button>
         </div>
       </div>
