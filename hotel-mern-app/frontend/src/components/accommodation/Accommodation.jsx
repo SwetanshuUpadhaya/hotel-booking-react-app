@@ -1,43 +1,43 @@
 import React from "react";
 import "./accommodation.css";
+import roomImage1 from "../../assets/rooms/roomImg1.jpg";
+import roomImage2 from "../../assets/rooms/roomImg2.jpg";
+import roomImage3 from "../../assets/rooms/roomImg3.jpg";
+import campImage1 from "../../assets/rooms/campImg1.jpg";
+import campImage2 from "../../assets/rooms/campImg2.jpg";
+import campImage3 from "../../assets/rooms/campImg3.jpg";
 
 const Accommodation = () => {
   const accommodations = [
     {
       title: "Cosy Rooms with Attached Washroom",
       subtitle: "4 rooms available",
-      image:
-        "https://images.unsplash.com/photo-1595161695996-f746349f4945?q=80&w=1914&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: roomImage1,
     },
     {
       title: "4-Bed Dorm",
       subtitle: "1 dorm available",
-      image:
-        "https://images.unsplash.com/photo-1655287330904-8c03daa84d14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: roomImage2,
     },
     {
       title: "Private Room with Common Bathroom",
       subtitle: "1 room available",
-      image:
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: roomImage3,
     },
     {
       title: "Couple Sleeping Tents",
       subtitle: "Available on request",
-      image:
-        "https://images.pexels.com/photos/5993944/pexels-photo-5993944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: campImage1,
     },
     {
       title: "2 Person Sleeping Tents",
       subtitle: "Available on request",
-      image:
-        "https://images.unsplash.com/photo-1624923686627-514dd5e57bae?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: campImage2,
     },
     {
       title: "6 Person Sleeping Tents",
       subtitle: "Available on request",
-      image:
-        "https://images.pexels.com/photos/45241/tent-camp-night-star-45241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: campImage3,
     },
   ];
 

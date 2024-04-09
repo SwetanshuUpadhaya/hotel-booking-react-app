@@ -15,14 +15,21 @@ import Newsletter from "../components/newsletter/Newsletter";
 import Accommodation from "../components/accommodation/Accommodation";
 import Query from "../components/query/Query";
 import FacilitySlider from "../components/slider-2/FacilitySlider";
+import sliderImage1 from "../assets/slider-images/sliderImg1.jpg";
+import sliderImage2 from "../assets/slider-images/sliderImg2.jpg";
+import sliderImage3 from "../assets/slider-images/sliderImg3.jpg";
+import sliderImage4 from "../assets/slider-images/sliderImg4.jpg";
+import sliderImage5 from "../assets/slider-images/sliderImg5.jpg";
+import sliderImage6 from "../assets/slider-images/sliderImg6.jpg";
 
 const Home = () => {
   const images = [
-    "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1532339142463-fd0a8979791a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1606456817825-a0a0d88ae727?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1503265192943-9d7eea6fc77a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1609410065485-332392feb93b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    sliderImage1,
+    sliderImage2,
+    sliderImage3,
+    sliderImage4,
+    sliderImage5,
+    sliderImage6,
   ];
 
   const handleLinkClick = () => {
@@ -55,10 +62,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="contact-section">
-        <img
-          src="https://images.unsplash.com/photo-1626621338418-713655538d99?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="church"
-        />
+        <img src={sliderImage4} alt="church" />
         <div className="img-overlay">
           <div className="img-overlay-text">
             <FontAwesomeIcon icon={faPersonHiking} className="trek-icon" />

@@ -31,7 +31,7 @@
 
 .slick-slide h1 {
   font-size: 25px;
-  font-weight: normal;
+  font-weight: 600;
   color: var(--secondary-color);
 }
 

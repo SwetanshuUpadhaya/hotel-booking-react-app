@@ -19,7 +19,6 @@ const About = () => {
     <div>
       <HeroImage title={"About Us"} />
       <div className="about about-page">
-        <img src={logo} alt="logo" width={300} height={300} />
         <div className="about-text">
           <h1>Welcome to The Rudraksha Stays</h1>
           <h2>Experience the best Homestay & Cafe in Mcleod Ganj</h2>
@@ -33,6 +32,7 @@ const About = () => {
             transport facilities for an easier commute to nearby places.
           </p>
         </div>
+        <img src={logo} alt="logo" width={350} height={350} />
       </div>
       <div className="facility-section">
         <div className="facility-container">

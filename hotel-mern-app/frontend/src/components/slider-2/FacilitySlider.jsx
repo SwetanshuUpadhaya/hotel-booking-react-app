@@ -3,46 +3,52 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./facilityslider.css";
+import food from "../../assets/slider2-images/food.jpg";
+import parking from "../../assets/slider2-images/parking.jpg";
+import balcony from "../../assets/slider2-images/balcony.jpg";
+import drinks from "../../assets/slider2-images/drinks.jpg";
+import service from "../../assets/slider2-images/service.jpg";
+import storage from "../../assets/slider2-images/storage.jpg";
 
 const Images = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1535567465397-7523840f2ae9?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: food,
     alt: "Image 1",
     title: "Delicious Food",
     description: "There is no love sincerer than the love of food.",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1634514311538-2cc4f25b6d1c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: parking,
     alt: "Image 2",
     title: "Private Parking",
     description: "The perfect parking spot you can count on!",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1668350201658-2e0d0e59d7e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: balcony,
     alt: "image 3",
     title: "Mountain View Balcony",
     description: "Somewhere between heaven and earth.",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1481671703460-040cb8a2d909?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: drinks,
     alt: "Image 3",
     title: "Welcome Drinks",
     description: "The Perfect Blend of Refreshment and Professionalism",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1580842402762-6f5868c17412?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: service,
     alt: "Image 3",
     title: "24/7 Room Service",
     description: "Your comfort is our passion at Room Service!",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1639597784674-431b34cec7a8?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: storage,
     alt: "Image 3",
     title: "Luggage Storage",
     description: "Storing your luggage safely is our passion",

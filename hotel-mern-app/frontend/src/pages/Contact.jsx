@@ -5,6 +5,7 @@ import Newsletter from "../components/newsletter/Newsletter";
 import "../styles/contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import sliderImage4 from "../assets/slider-images/sliderImg4.jpg";
 
 const Contact = () => {
   return (
@@ -12,10 +13,7 @@ const Contact = () => {
       <HeroImage title={"Contact Us"} />
       <Query />
       <div className="contact-section">
-        <img
-          src="https://images.unsplash.com/photo-1626621338418-713655538d99?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="church"
-        />
+        <img src={sliderImage4} alt="church" />
         <div className="img-overlay">
           <div className="img-overlay-text">
             <FontAwesomeIcon icon={faPersonHiking} className="trek-icon" />
