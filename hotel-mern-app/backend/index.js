@@ -29,7 +29,7 @@ app.post("/api/send-query-email", (req, res) => {
   const mailOptions = {
     from: "your-email@gmail.com",
     to: "therudrakshastays@gmail.com",
-    subject: "Query Form Submission",
+    subject: "Therudrakshastays.com - New Query Submission!",
     text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
   };
 
@@ -52,7 +52,7 @@ app.post("/api/send-booking-email", (req, res) => {
   const mailOptions = {
     from: "your-email@gmail.com",
     to: "therudrakshastays@gmail.com",
-    subject: "Booking Request Submission",
+    subject: "Therudrakshastays.com - New Booking Request!",
     text: `Name: ${name}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nCheck In: ${checkIn}\nCheck Out: ${checkOut}\nNumber of People: ${numberOfPeople}`,
   };
 
@@ -74,7 +74,7 @@ app.post("/api/subscribe", (req, res) => {
   const mailOptions = {
     from: "your-email@gmail.com", // Your email address
     to: "therudrakshastays@gmail.com", // Your newsletter email address
-    subject: "New Newsletter Subscription",
+    subject: "Therudrakshastays.com - New Newsletter Subscription!",
     text: `New subscription: ${email}`,
   };
 
