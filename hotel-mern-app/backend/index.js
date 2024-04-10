@@ -31,6 +31,7 @@ app.post("/api/send-query-email", (req, res) => {
     to: "therudrakshastays@gmail.com",
     subject: "Therudrakshastays.com - New Query Submission!",
     text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
+    priority: "high",
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
@@ -54,6 +55,7 @@ app.post("/api/send-booking-email", (req, res) => {
     to: "therudrakshastays@gmail.com",
     subject: "Therudrakshastays.com - New Booking Request!",
     text: `Name: ${name}\nEmail: ${email}\nPhone Number: ${phoneNumber}\nCheck In: ${checkIn}\nCheck Out: ${checkOut}\nNumber of People: ${numberOfPeople}`,
+    priority: "high",
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
@@ -76,6 +78,7 @@ app.post("/api/subscribe", (req, res) => {
     to: "therudrakshastays@gmail.com", // Your newsletter email address
     subject: "Therudrakshastays.com - New Newsletter Subscription!",
     text: `New subscription: ${email}`,
+    priority: "high",
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
