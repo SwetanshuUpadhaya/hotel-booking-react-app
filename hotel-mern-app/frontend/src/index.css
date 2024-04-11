@@ -3,6 +3,7 @@ body {
   --primary-color: #2d4759;
   --secondary-color: #c66016;
   --background-color: rgb(10, 10, 10);
+  --secondary-background: #cbe3df;
   margin: 0;
   padding: 0;
 }

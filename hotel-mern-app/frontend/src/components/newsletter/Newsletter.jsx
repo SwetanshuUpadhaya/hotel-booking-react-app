@@ -31,7 +31,7 @@ const Newsletter = () => {
   return (
     <div className="newsletter">
       <div className="newsletter_content">
-        <h2>Subscribe now to get useful information about our property</h2>
+        <h2>Subscribe now to receive valuable updates about our property.</h2>
         <form onSubmit={handleSubmit} className="newsletter_form">
           <div className="newsletter_input">
             <input
@@ -49,11 +49,10 @@ const Newsletter = () => {
           </div>
         </form>
         <p>
-          In hospitality, there's always more to learn, and you're dealing with
-          so many different types of people from all over the world every single
-          day. You'll never know it all, and that can be humbling, but it's also
-          a great opportunity to develop a coach mentality in your management
-          staff.
+          The potential insight available through big data, to better understand
+          what is happening and why, as well as the possibility to achieve real
+          personalisation in online commerce and relationships between hotels
+          and their guests.
         </p>
       </div>
       {showConfirmation && (

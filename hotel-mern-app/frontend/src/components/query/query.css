@@ -13,8 +13,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  background-color: #f0fffc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--secondary-background);
   flex-wrap: wrap;
 }
 
@@ -25,7 +25,7 @@
 
 /* Style for form */
 .query-form {
-  background-color: #f0fffc;
+  background-color: var(--secondary-background);
   flex: 1;
   padding: 20px;
 }

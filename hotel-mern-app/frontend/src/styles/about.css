@@ -5,6 +5,9 @@
   gap: 50px;
   text-align: left;
 }
+.about-page p {
+  text-align: left;
+}
 
 @media (max-width: 768px) {
   .about-page {

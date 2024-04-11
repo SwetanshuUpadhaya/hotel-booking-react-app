@@ -9,7 +9,7 @@ import {
   faMugSaucer,
   faMountainSun,
   faBellConcierge,
-  faSquareParking,
+  faDog,
 } from "@fortawesome/free-solid-svg-icons";
 import Newsletter from "../components/newsletter/Newsletter";
 import Accommodation from "../components/accommodation/Accommodation";
@@ -44,7 +44,7 @@ const Home = () => {
         <h1>Welcome to The Rudraksha Stays</h1>
         <h2>Experience the best Homestay & Cafe in Mcleod Ganj</h2>
         <p>
-          The Nature Haven retreat offers an immersive experience of serene
+          "The Nature Haven retreat offers an immersive experience of serene
           tranquility amidst the lush surroundings of McLeod Ganj. Embrace the
           essence of nature and peaceful living, indulging in fresh water,
           oxygen-rich air, and a rejuvenating lifestyle. Immerse yourself in the
@@ -54,7 +54,7 @@ const Home = () => {
           wonders with our knowledgeable guides. Additionally, we provide
           seamless transport arrangements for convenient exploration of nearby
           destinations, fostering a holistic experience of youthfulness and
-          vitality.
+          vitality."
         </p>
 
         <Link to="/About" onClick={handleLinkClick}>
@@ -62,14 +62,14 @@ const Home = () => {
         </Link>
       </div>
       <div className="contact-section">
-        <img src={sliderImage4} alt="church" />
+        <img src={sliderImage4} alt="mountains" />
         <div className="img-overlay">
           <div className="img-overlay-text">
             <FontAwesomeIcon icon={faPersonHiking} className="trek-icon" />
             <h1>Plan an Unforgettable Experience in Dharamshala Today!</h1>
             <h2>
-              We can help you fit your stay and experience within your allotted
-              budget.
+              "We can help you fit your stay and experience within your allotted
+              budget."
             </h2>
             <h3>BOOK YOUR STAY NOW</h3>
             <p>Customer Care: +91 88941-63563</p>
@@ -97,34 +97,38 @@ const Home = () => {
         <div className="facility-container">
           <div className="facility-card">
             <FontAwesomeIcon icon={faMugSaucer} className="facility-icon" />
-            <h2>CAFE</h2>
+            <h2>CAFE & LOUNGE</h2>
             <p>
-              We have in-house restaurant and cafe offering different cuisines
-              that you can choose from.
+              "Indulge in mountain comfort at our cafe. Treat yourself to
+              locally sourced delights with stunning views, creating
+              unforgettable moments amidst nature's embrace."
             </p>
           </div>
           <div className="facility-card">
             <FontAwesomeIcon icon={faMountainSun} className="facility-icon" />
-            <h2>TOUR</h2>
+            <h2>ADVENTURE</h2>
             <p>
-              Among the scenic beauty of the city we also have an mountain View
-              balcony for every suite in our hotel.
+              "Embark on unforgettable adventures with our guided tours amidst
+              the stunning Dhauladhar range. Discover hidden gems and vistas.
+              Experience nature's wonders!"
             </p>
           </div>
           <div className="facility-card">
             <FontAwesomeIcon icon={faBellConcierge} className="facility-icon" />
             <h2>ROOM SERVICE</h2>
             <p>
-              Enjoy dinner without leaving the comfort and privacy of your hotel
-              room or suite.
+              "Enjoy the convenience of room service amidst mountain serenity.
+              Indulge in delicious meals delivered right to your door, enhancing
+              your retreat at our homestay."
             </p>
           </div>
           <div className="facility-card">
-            <FontAwesomeIcon icon={faSquareParking} className="facility-icon" />
-            <h2>PARKING</h2>
+            <FontAwesomeIcon icon={faDog} className="facility-icon" />
+            <h2>PET FRIENDLY</h2>
             <p>
-              Want to park your vehicle? All our guests get complimentary access
-              to our private parking.
+              "Embrace adventure with your furry companion at our homestay.
+              Discover scenic trails and cozy accommodations, ensuring a
+              memorable getaway for you and your pet."
             </p>
           </div>
         </div>

@@ -30,7 +30,7 @@ const Contact = () => {
       </div>
       <div className="map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3373.9476019380313!2d76.31659161127912!3d32.25949201014509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1712066963782!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3373.947505300581!2d76.31659731127915!3d32.259494610144884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b5717a13d40a9%3A0x19f1482d18eaa564!2sThe%20rudraksha%20stays!5e0!3m2!1sen!2sin!4v1712860933496!5m2!1sen!2sin"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

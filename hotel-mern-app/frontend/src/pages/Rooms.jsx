@@ -20,7 +20,6 @@ const Rooms = () => {
       </div>
       <BookNowForm />
       <FacilitySlider />
-      <Query />
       <Newsletter />
     </div>
   );

@@ -17,7 +17,9 @@
   border-radius: 2px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
+  height: 75vh;
   transition: 0.5s;
+  position: relative;
 }
 
 .accommodation-card:hover {
@@ -36,16 +38,24 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding: 0 20px;
 }
 
 .accommodation-card-content h2 {
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--primary-color);
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--secondary-color);
 }
 
 .accommodation-card-content p {
   font-size: 16px;
   color: var(--primary-color);
+}
+
+.accommodation-card-content .btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  font-size: 16px;
 }
