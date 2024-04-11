@@ -69,6 +69,7 @@ const BookNowForm = () => {
               onChange={handleChange}
               required
               placeholder="Enter your name"
+              autoComplete="name"
             />
           </label>
           <label className="form-label">
@@ -81,6 +82,7 @@ const BookNowForm = () => {
               onChange={handleChange}
               required
               placeholder="Enter your email"
+              autoComplete="email"
             />
           </label>
           <label className="form-label">

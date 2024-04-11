@@ -64,6 +64,7 @@ const Query = () => {
                   onChange={handleChange}
                   required
                   placeholder="Enter your name"
+                  autoComplete="name"
                 />
               </div>
               <div>
@@ -76,6 +77,7 @@ const Query = () => {
                   onChange={handleChange}
                   required
                   placeholder="Enter your email"
+                  autoComplete="email"
                 />
               </div>
               <div>
@@ -88,6 +90,7 @@ const Query = () => {
                   onChange={handleChange}
                   required
                   placeholder="Enter your phone no."
+                  autoComplete="phone"
                 />
               </div>
               <div>

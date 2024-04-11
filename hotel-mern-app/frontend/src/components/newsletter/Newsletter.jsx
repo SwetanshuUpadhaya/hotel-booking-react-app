@@ -36,6 +36,8 @@ const Newsletter = () => {
           <div className="newsletter_input">
             <input
               type="email"
+              name="email"
+              autoComplete="email"
               placeholder="Enter your email"
               value={email}
               onChange={handleChange}
