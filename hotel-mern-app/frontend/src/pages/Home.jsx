@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/home.css"; // Import CSS file for styling
 import Slider from "../components/slider/Slider";
@@ -36,39 +36,11 @@ const Home = () => {
     window.scrollTo(0, 0);
   };
 
-  const aboutRef = useRef(null);
-
-  useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0, // 0.5 means when half of the element is visible
-    };
-
-    const observerCallback = (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("animate");
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(
-      observerCallback,
-      observerOptions
-    );
-    if (aboutRef.current) observer.observe(aboutRef.current);
-
-    return () => {
-      if (aboutRef.current) observer.unobserve(aboutRef.current);
-    };
-  }, []);
-
   return (
     <div className="home-container">
       <Slider images={images} />
       <BookNowForm className="book-now-form" />
-      <div id="about" ref={aboutRef} className="about">
+      <div className="about">
         <h1>Welcome to The Rudraksha Stays</h1>
         <h2>Experience the best Homestay & Cafe in Mcleod Ganj</h2>
         <p>

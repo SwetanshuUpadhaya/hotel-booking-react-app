@@ -19,6 +19,16 @@
   width: 100%;
   height: 90vh;
   object-fit: cover;
+  animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .dark-overlay {
@@ -43,26 +53,26 @@
   font-size: 50px;
   font-weight: normal;
   margin: 0;
-  animation: fadeRight 0.5s linear;
+  animation: fadeRight 1s linear;
 }
 .dark-overlay-text h2 {
   font-size: 70px;
   font-weight: bolder;
   margin: 0;
   color: var(--secondary-color);
-  animation: fadeLeft 0.5s linear;
+  animation: fadeLeft 1s linear;
 }
 .dark-overlay-text h3 {
   font-size: 50px;
   font-weight: bold;
   margin: 0;
-  animation: fadeRight 0.5s linear;
+  animation: fadeRight 1s linear;
 }
 
 @keyframes fadeLeft {
   0% {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(200%);
   }
   100% {
     opacity: 1;
@@ -73,7 +83,7 @@
 @keyframes fadeRight {
   0% {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-200%);
   }
   100% {
     opacity: 1;
@@ -113,13 +123,13 @@
 
 .line_top {
   margin-bottom: 30px;
-  animation: fadeTop 0.5s linear;
+  animation: fadeTop 1s linear;
 }
 
 @keyframes fadeTop {
   0% {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
   }
   100% {
     opacity: 1;
@@ -129,13 +139,13 @@
 
 .line_bottom {
   margin-top: 30px;
-  animation: fadeBottom 0.5s linear;
+  animation: fadeBottom 1s linear;
 }
 
 @keyframes fadeBottom {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(200%);
   }
   100% {
     opacity: 1;
