@@ -73,11 +73,11 @@
     right: 0;
     padding: 80px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 0.3s linear;
+    animation: fadeInBar 0.3s linear;
     overflow: scroll;
   }
 
-  @keyframes fadeIn {
+  @keyframes fadeInBar {
     0% {
       opacity: 0;
       transform: translateX(200px);

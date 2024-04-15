@@ -57,7 +57,9 @@ const Accommodation = () => {
       <div className="accommodation-cards-container">
         {accommodations.map((accommodation, index) => (
           <div className="accommodation-card" key={index}>
-            <img src={accommodation.image} alt={accommodation.title} />
+            <div className="accommodation-img">
+              <img src={accommodation.image} alt={accommodation.title} />
+            </div>
             <div className="accommodation-card-content">
               <h2>{accommodation.title}</h2>
               <p>{accommodation.description}</p>
