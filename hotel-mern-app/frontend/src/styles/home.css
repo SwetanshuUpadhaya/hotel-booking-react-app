@@ -101,12 +101,22 @@
 }
 
 .img-overlay-text p {
-  font-size: 25px;
+  font-size: 30px;
 }
 
-.home-container a {
+.img-overlay-text span {
+  margin-right: 10px;
+  color: var(--secondary-color);
+}
+
+.img-overlay-text a {
   text-decoration: none;
   color: #fff;
+  transition: 0.25s;
+}
+
+.img-overlay-text a:hover {
+  color: var(--secondary-color);
 }
 
 .rooms-section {
@@ -214,8 +224,11 @@
   .img-overlay-text h2 {
     font-size: 20px;
   }
+  .img-overlay-text h3 {
+    font-size: 20px;
+  }
   .img-overlay-text p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .rooms-text h2 {
     font-size: 30px;

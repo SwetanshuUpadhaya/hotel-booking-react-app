@@ -10,6 +10,7 @@ import {
   faMountainSun,
   faBellConcierge,
   faDog,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import Newsletter from "../components/newsletter/Newsletter";
 import Accommodation from "../components/accommodation/Accommodation";
@@ -72,9 +73,12 @@ const Home = () => {
               budget."
             </h2>
             <h3>BOOK YOUR STAY NOW</h3>
-            <p>Customer Care: +91 88941-63563</p>
-            <p>Sales Manager: +91 88941-63563</p>
-
+            <p>
+              <span>
+                <FontAwesomeIcon icon={faPhone} />
+              </span>
+              <a href="tel:+918894163563">+91 88941-63563</a>
+            </p>
             <Link to="/Contact" onClick={handleLinkClick}>
               <button className="btn">Contact Us</button>
             </Link>

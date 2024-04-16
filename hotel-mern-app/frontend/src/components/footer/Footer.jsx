@@ -67,12 +67,6 @@ const Footer = () => {
             </p>
             <p>
               <span>
-                <i className="fas fa-phone"></i>
-              </span>
-              <a href="tel:+918894163563">+91 88941-63563</a>
-            </p>
-            <p>
-              <span>
                 <i className="fas fa-envelope"></i>
               </span>
               <a href="mailto:theradrakshastays@gmail.com">
