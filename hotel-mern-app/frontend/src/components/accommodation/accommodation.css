@@ -15,7 +15,7 @@
   width: 100%;
   max-width: 400px;
   border-radius: 2px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   height: 75vh;
   transition: 0.5s;
@@ -24,7 +24,7 @@
 
 .accommodation-card:hover {
   transform: scale(1.01);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .accommodation-img {
